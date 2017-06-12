@@ -12,12 +12,12 @@
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="48dp"
         android:onClick="button1"
-        android:layout_marginStart="40dp"
-        android:text="@string/click1" />
+        android:layout_marginStart="41dp"
+        android:text="@string/click1"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp" />
 
     <Button
         android:id="@+id/button2"
@@ -32,11 +32,62 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/button2"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/button1"
-        android:layout_marginTop="144dp"
+        android:layout_marginTop="22dp"
         android:text="@string/dieu"
         android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="45sp" />
+        android:textSize="45sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="38dp"
+        android:text="@string/question"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/rep1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rep1"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:onClick="rep1"
+        />
+
+    <Button
+        android:id="@+id/rep2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rep2"
+        android:layout_below="@+id/rep1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:onClick="rep2"
+        />
+
+    <Button
+        android:id="@+id/rep3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rep3"
+        android:layout_below="@+id/rep2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp"
+        android:onClick="rep3"
+        />
+
+    <Button
+        android:id="@+id/rep4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rep4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:onClick="rep4"
+        />
 </RelativeLayout>

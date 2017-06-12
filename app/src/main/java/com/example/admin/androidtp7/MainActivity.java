@@ -32,4 +32,35 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("param", true);
         startActivity(intent);
     }
+
+
+    public void rep1(View view) {
+        Log.d("BOUTON", "rep1");
+        Intent intent = new Intent (MainActivity.this, ActivityPage3.class);
+        intent.putExtra("second", false);
+        startActivity(intent);
+
+    }
+
+
+    public void rep2(View view) {
+        Log.d("BOUTON", "rep1");
+        Intent intent = new Intent (MainActivity.this, ActivityPage3.class);
+        intent.putExtra("second", true);
+        startActivity(intent);
+    }
+
+    public void rep3(View view) {
+        Log.d("BOUTON", "rep1");
+        Intent intent = new Intent (MainActivity.this, ActivityPage3.class);
+        intent.putExtra("second", false);
+        startActivity(intent);
+    }
+
+    public void rep4(View view) {
+        Log.d("BOUTON", "rep1");
+        Intent intent = new Intent (MainActivity.this, ActivityPage3.class);
+        intent.putExtra("second", false);
+        startActivity(intent);
+    }
 }

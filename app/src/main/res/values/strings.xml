@@ -3,5 +3,13 @@
     <string name="click1">Ferjeux</string>
     <string name="click2">Romain</string>
     <string name="dieu">Qui est dieu?</string>
+    <string name="juste">vous avez juste</string>
+    <string name="faux">Vous avez faux</string>
+    <string name="question">Lorsqu’un pancake tombe dans la neige avant le 31 décembre, on dit :</string>
+    <string name="rep1">Que c’est un pancake qui est tombé dans la neige avant le 31 décembre</string>
+    <string name="rep2">Que c’est une Kippa surgelée</string>
+    <string name="rep3">Que c’est un frisbee comestible</string>
+    <string name="rep4">La réponse D</string>
+    <string name="reponseD">Lorsqu’un pancake tombe dans la neige avant le 31 décembre on dit en effet que c’est une Kippa surgelée, bravo gui</string>
 
 </resources>
