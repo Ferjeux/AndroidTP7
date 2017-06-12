@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AndroidTP7</string>
+    <string name="click1">Ferjeux</string>
+    <string name="click2">Romain</string>
+    <string name="dieu">Qui est dieu?</string>
+
 </resources>
